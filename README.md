@@ -20,16 +20,16 @@ Git Rebase Training Repo
 
 ## Rewrite history
 
-On the same branch but on your own, commit a few changes to your copy of that branch.
+1. On the same branch but on your own, commit a few changes to your copy of that branch.
 Run:
 ```git rebase -i HEAD~N```
-Where N is the number of commits back you’d like to edit the history from.
+1. Where N is the number of commits back you’d like to edit the history from.
 
-Read the prompt here, play with your history. Shuffle the order around, delete stuff, modify a commit, if you’re bored, try to add a new commit between two old commits.
-Follow git’s instructions on how to apply your rebase
+1. Read the prompt here, play with your history. Shuffle the order around, delete stuff, modify a commit, if you’re bored, try to add a new commit between two old commits.
+1. Follow git’s instructions on how to apply your rebase
 (Hint: if you get stuck, run git rebase --abort and go again).
 
-Run git log & git show <commit_id> to see your new history!
+1. Run git log & git show <commit_id> to see your new history!
 
 
 ## Break Things
