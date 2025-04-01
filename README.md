@@ -48,17 +48,17 @@ git cherry-pick
 
 ## Don't be afraid to fail
 
-Run git reflog
-What do you see?
-Recover (cherry pick) a change you deleted in the interactive rebase.
+1. Run git reflog
+1. What do you see?
+1. Recover (cherry pick) a change you deleted in the interactive rebase.
 
 
 ## Don't cross the streams (Don't mix rebase and merge)
 
-Create a new branch
-Commit a few times to the same file on both local master and the new branch.
-Run git merge master from the new branch.
-What happens when you now run git pull --rebase master from the new branch?
+1. Create a new branch
+1. Commit a few times to the same file on both local master and the new branch.
+1. Run git merge master from the new branch.
+1. What happens when you now run git pull --rebase master from the new branch?
 
 
 ## Other nice git cammands that can improve legibility
