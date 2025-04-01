@@ -3,20 +3,20 @@ Git Rebase Training Repo
 
 ## Pair off and Branch
 
-Pick a partner (or partners) & create a branch together.
-Commit a few changes to your copy of that branch.
-Pick someone to push their changes first.
-Try to push the second person’s changes without merging/rebasing.
+1. Pick a partner (or partners) & create a branch together.
+1. Commit a few changes to your copy of that branch.
+1. Pick someone to push their changes first.
+1. Try to push the second person’s changes without merging/rebasing.
 
-What does it tell you to do?
-Can you remember the commandments?
+5. What does it tell you to do?
+1. Can you remember the commandments?
 
-Run the following to sync your branch with the origin & try to push again.
-(Don't forget to replace `feature/my_branch` with your team's branch name)
+7. Run the following to sync your branch with the origin & try to push again.
+1. (Don't forget to replace `feature/my_branch` with your team's branch name)
 ```git pull --rebase origin feature/my_branch```
 
-Run git log to look at your history
-Repeat but swap the roles (you can reuse your branch).
+8. Run git log to look at your history
+1. Repeat but swap the roles (you can reuse your branch).
 
 ## Rewrite history
 
