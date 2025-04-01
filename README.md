@@ -34,13 +34,13 @@ Run:
 
 ## Break Things
 
-In your groups again, pick one person to push their changes from the last step. (If this push doesn’t need a force push, you didn’t play with rebase enough :) use the other person’s changes or play with rebase some more)
-Repeat the steps from the first exercise to try to push the next person’s changes.
-What happens?
+1. In your groups again, pick one person to push their changes from the last step. (If this push doesn’t need a force push, you didn’t play with rebase enough :) use the other person’s changes or play with rebase some more)
+1. Repeat the steps from the first exercise to try to push the next person’s changes.
+1. What happens?
 
-Force push the second person’s changes.
-What happens to the history?
-Try to use the following commands to push both of your changes (this may not be 100% possible, but get as close as you can).
+1. Force push the second person’s changes.
+1. What happens to the history?
+1. Try to use the following commands to push both of your changes (this may not be 100% possible, but get as close as you can).
 ```
 git branch
 git cherry-pick
