@@ -1,36 +1,36 @@
 # git-rebase
+
 Git Rebase Training Repo
 
 ## Pair off and Branch
 
 1. Pick a partner (or partners) & create a branch together.
-1. Commit a few changes to your copy of that branch.
-1. Pick someone to push their changes first.
-1. Try to push the second person’s changes without merging/rebasing.
+2. Commit a few changes to your copy of that branch.
+3. Pick someone to push their changes first.
+4. Try to push the second person’s changes without merging/rebasing.
 
 5. What does it tell you to do?
-1. Can you remember the commandments?
+6. Can you remember the commandments?
 
 7. Run the following to sync your branch with the origin & try to push again.
-1. (Don't forget to replace `feature/my_branch` with your team's branch name)
-```git pull --rebase origin feature/my_branch```
+8. (Don't forget to replace `feature/my_branch` with your team's branch name)
+   `git pull --rebase origin feature/my_branch`
 
-8. Run git log to look at your history
-1. Repeat but swap the roles (you can reuse your branch).
+9. Run git log to look at your history
+10. Repeat but swap the roles (you can reuse your branch).
 
 ## Rewrite history
 
 1. On the same branch but on your own, commit a few changes to your copy of that branch.
-Run:
-```git rebase -i HEAD~N```
+   Run:
+   `git rebase -i HEAD~N`
 1. Where N is the number of commits back you’d like to edit the history from.
 
 1. Read the prompt here, play with your history. Shuffle the order around, delete stuff, modify a commit, if you’re bored, try to add a new commit between two old commits.
 1. Follow git’s instructions on how to apply your rebase
-(Hint: if you get stuck, run git rebase --abort and go again).
+   (Hint: if you get stuck, run git rebase --abort and go again).
 
 1. Run git log & git show <commit_id> to see your new history!
-
 
 ## Break Things
 
@@ -41,6 +41,7 @@ Run:
 1. Force push the second person’s changes.
 1. What happens to the history?
 1. Try to use the following commands to push both of your changes (this may not be 100% possible, but get as close as you can).
+
 ```
 git branch
 git cherry-pick
@@ -52,7 +53,6 @@ git cherry-pick
 1. What do you see?
 1. Recover (cherry pick) a change you deleted in the interactive rebase.
 
-
 ## Don't cross the streams (Don't mix rebase and merge)
 
 1. Create a new branch
@@ -60,8 +60,8 @@ git cherry-pick
 1. Run git merge master from the new branch.
 1. What happens when you now run git pull --rebase master from the new branch?
 
-
 ## Other nice git cammands that can improve legibility
+
 ```
 git commit -p
 git add -p
