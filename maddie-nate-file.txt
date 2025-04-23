@@ -2,3 +2,4 @@ Hi
 Hello!
 merge conflict!
 merge conflict?
+commit 1
