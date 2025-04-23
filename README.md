@@ -4,6 +4,8 @@ Git Rebase Training Repo
 
 ## Pair off and Branch
 
+Chris Change
+
 1. Pick a partner (or partners) & create a branch together.
 2. Commit a few changes to your copy of that branch.
 3. Pick someone to push their changes first.
