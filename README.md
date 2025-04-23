@@ -23,11 +23,13 @@ Chris Change
 
 ## Rewrite history
 
+Chris Change
+
 1. On the same branch but on your own, commit a few changes to your copy of that branch.
    Run:
    `git rebase -i HEAD~N`
 2. Where N is the number of commits back you’d like to edit the history from.
-
+   Chris Change
 3. Read the prompt here, play with your history. Shuffle the order around, delete stuff, modify a commit, if you’re bored, try to add a new commit between two old commits.
 4. Follow git’s instructions on how to apply your rebase
    (Hint: if you get stuck, run git rebase --abort and go again).
