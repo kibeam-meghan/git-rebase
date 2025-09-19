@@ -85,6 +85,7 @@ https://www.atlassian.com/git/tutorials/using-branches/git-merge
 
 
 
+
 Friday Hackathon: Hola! Estoy actualizando un poco el readme. 
 
 
@@ -92,3 +93,7 @@ Another change testing squashhhhh
 ![friday-hackathon](https://chatgpt.com/s/m_68cdaf52d8e88191804a44fa89f086a2)
 
 ## commit for main rebase hotfix
+
+## commit for main rebase hotfix
+
+## commit 2 for main rebase hotfix
