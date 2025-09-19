@@ -4,4 +4,4 @@ function addNumbers(a, b) {
 }
 
 // Should output 3
-addNumbers(1, 2);
+console.log(addNumbers(1, 2));
