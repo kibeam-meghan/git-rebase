@@ -85,4 +85,4 @@ https://www.atlassian.com/git/tutorials/using-branches/git-merge
 
 -I'm blue, if I was green I would die.-
 
-Nah bro, it's all about that orange life.
+Nah bro, it's all about that hotfix life.
