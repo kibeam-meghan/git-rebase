@@ -8,8 +8,8 @@ console.log(addNumbers(1, 2));
 
 function subtractNumbers(a, b) {
 
-  return b - a;
+  return a - b;
 }
 
 // Should output -1
-console.log(subtractNumbers(2, 1));
+console.log(subtractNumbers(1, 2));
