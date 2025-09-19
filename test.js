@@ -1,6 +1,6 @@
 function addNumbers(a, b) {
 
-  return a + a;
+  return a + b;
 }
 
 // Should output 3
